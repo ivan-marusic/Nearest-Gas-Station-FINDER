@@ -2,6 +2,9 @@
 
 A desktop GIS application built with Python that allows users to input their location and find the nearest gas stations within a 5 km radius using spatial queries in PostgreSQL/PostGIS. The app features an interactive map, database integration, and a user-friendly GUI.
 
+![Start_Page](start_page.png)
+
+
 ## Features
 
 - Input coordinates and store them in a PostgreSQL/PostGIS database
