@@ -24,6 +24,6 @@ A desktop GIS application built with Python that allows users to input their loc
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/gas-station-finder.git
-   cd gas-station-finder
+   git clone https://github.com/ivan-marusic/Nearest-Gas-Station-FINDER.git
+   cd Nearest-Gas-Station-FINDER
    ```
