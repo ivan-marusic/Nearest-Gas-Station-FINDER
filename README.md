@@ -1,8 +1,8 @@
-# Gas-Station-Finder 🗺️⛽
+# Gas-Station-Finder
 
 A desktop GIS application built with Python that allows users to input their location and find the nearest gas stations within a 5 km radius using spatial queries in PostgreSQL/PostGIS. The app features an interactive map, database integration, and a user-friendly GUI.
 
-## 🚀 Features
+## Features
 
 - Input coordinates and store them in a PostgreSQL/PostGIS database
 - Perform spatial queries using `ST_DWithin` to find nearby gas stations
@@ -11,7 +11,7 @@ A desktop GIS application built with Python that allows users to input their loc
 - Interactive map with left and right click events
 - Marker placement and visualization using `tkintermapview`
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3**
 - **Tkinter** – GUI framework
@@ -20,7 +20,7 @@ A desktop GIS application built with Python that allows users to input their loc
 - **PostGIS** – Spatial extension for PostgreSQL
 - **psycopg2** – PostgreSQL adapter for Python
 
-## 📦 Installation
+## Installation
 
 1. Clone the repository:
    ```bash
