@@ -63,3 +63,6 @@ Ensure you have PostgreSQL and PostGIS installed and configured. Create the nece
 7. View results in the GUI and on the map.
 
       ![Nearest_Gas_Station](project_images/nearest_gas_station.png)
+
+## License
+This project is open-source and available under the MIT License.
