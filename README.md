@@ -51,6 +51,7 @@ Ensure you have PostgreSQL and PostGIS installed and configured. Create the nece
 
 1. Launch the application.
 2. Enter coordinates manually or click on the map to add a marker.
-3. Save the location to the database.
-4. Click "Nearest gas station" to perform a spatial query.
-5. View results in the GUI and on the map.
+   ![Coordinates](project_images/coordinates.png)
+4. Save the location to the database.
+5. Click "Nearest gas station" to perform a spatial query.
+6. View results in the GUI and on the map.
