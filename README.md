@@ -56,3 +56,4 @@ Ensure you have PostgreSQL and PostGIS installed and configured. Create the nece
       ![Add_Coordinates](project_images/add_coordinates.png)
 6. Click "Nearest gas station" to perform a spatial query.
 7. View results in the GUI and on the map.
+      ![Nearest_Gas_Station](project_images/nearest_gas_station.png)
