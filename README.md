@@ -31,7 +31,8 @@ This application uses PostgreSQL and PostGIS for spatial data storage and queryi
 - **Insert user location into the database**:
   ```sql
   INSERT INTO tocka VALUES (1, ST_Point(%s, %s));
-Find nearest gas stations within 5km:
+  
+- **Find nearest gas stations within 5km**:
 ```
 SELECT naziv, adresa
 FROM test
@@ -41,7 +42,7 @@ WHERE ST_DWithin(
     5000
 );
 ```
-Delete user location from the database:
+- **Delete user location from the database**:
 ```DELETE FROM tocka;```
 
 These queries are executed via Python using the psycopg2 library and are integrated into the GUI logic.
