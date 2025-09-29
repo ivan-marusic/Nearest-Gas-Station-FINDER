@@ -24,6 +24,27 @@ A desktop GIS application built with Python that allows users to input their loc
 - **PostGIS** – Spatial extension for PostgreSQL
 - **psycopg2** – PostgreSQL adapter for Python
 
+## SQL Queries Used
+
+This application uses PostgreSQL and PostGIS for spatial data storage and querying. Below are the key SQL queries used in the project:
+
+- **Insert user location into the database**:
+  ```sql
+  INSERT INTO tocka VALUES (1, ST_Point(%s, %s));
+Find nearest gas stations within 5km:
+```
+SELECT naziv, adresa
+FROM test
+WHERE ST_DWithin(
+    points::geography,
+    (SELECT points FROM tocka WHERE id = 1)::geography,
+    5000
+);
+```
+Delete user location from the database:
+```DELETE FROM tocka;```
+These queries are executed via Python using the psycopg2 library and are integrated into the GUI logic.
+
 ## Spatial Database Logic
 ### This project demonstrates practical use of PostGIS for geospatial analysis:
 - Coordinates are stored as POINT geometries with SRID 4326
