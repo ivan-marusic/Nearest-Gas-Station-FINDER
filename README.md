@@ -43,6 +43,7 @@ WHERE ST_DWithin(
 ```
 Delete user location from the database:
 ```DELETE FROM tocka;```
+
 These queries are executed via Python using the psycopg2 library and are integrated into the GUI logic.
 
 ## Spatial Database Logic
